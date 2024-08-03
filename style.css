@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f2f2f2; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #4da6ff; /* Slightly lighter blue */
+}
+
+h2 {
+    color: #5b9bd5; /* Slightly lighter blue */
+}
+
+/* Streamlit-specific styles */
+.stApp {
+    background-color: #262626; /* Slightly darker background */
+    padding: 20px;
+}
+
+.stTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f2f2f2; /* Light text color */
+}
+
+.stSubheader {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #4da6ff; /* Slightly lighter blue */
+}
+
+.stText {
+    font-size: 1em;
+    color: #c2c2c2; /* Slightly lighter text color */
+}
+
+/* Chart styles */
+.plotly-graph-div {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow */
+}
+
+.stDownloadButton {
+    background-color: #4da6ff; /* Slightly lighter blue */
+    color: #f2f2f2; /* Light text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.stDownloadButton:hover {
+    background-color: #3385d9; /* Slightly darker blue */
+}
